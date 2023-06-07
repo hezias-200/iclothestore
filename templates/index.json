@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG-20230606-WA0028.jpg",
             "heading": "Your Home, Your Style",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/all",

@@ -45,11 +45,11 @@
         "template--19146987438365__d97950ed-47e0-49bc-9b8b-c9d3cd75be1b-1685305457949f8a67-1"
       ],
       "custom_css": [
-        "h2.banner__heading.inline-richtext.h1 {color: black;}"
+        "h2.banner__heading.inline-richtext.h1 {color: black; height: 20%;}"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,

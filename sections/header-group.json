@@ -1,1 +1,57 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","disabled":true,"settings":{"text":"Welcome to our store","text_alignment":"center","color_scheme":"background-1","link":""}},"43f8f7eb-1d3e-4d8c-9f43-7ae15ffe59e8":{"type":"announcement","settings":{"text":"Welcome to our store","text_alignment":"center","color_scheme":"accent-1","link":""}}},"block_order":["announcement-bar-0","43f8f7eb-1d3e-4d8c-9f43-7ae15ffe59e8"],"settings":{}},"header":{"type":"header","settings":{"logo_position":"middle-center","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":20}}},"order":["announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "link": ""
+          }
+        },
+        "43f8f7eb-1d3e-4d8c-9f43-7ae15ffe59e8": {
+          "type": "announcement",
+          "settings": {
+            "text": "ברוכים הבאים לאתר הרשמי שלנו",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "43f8f7eb-1d3e-4d8c-9f43-7ae15ffe59e8"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

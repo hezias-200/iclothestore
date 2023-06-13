@@ -427,7 +427,13 @@
                 {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
                 {%- if block.settings.enable_quick_add -%}
                   {{ 'quick-add.css' | asset_url | stylesheet_tag }}
-                  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+                  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer">
+                  
+                  </script>
+                <p class="line-item-property__field">
+  <label for="your-name">Your name</label>
+  <input id="your-name" type="text" name="properties[Your name]">
+</p>
                 {%- endif -%}
               </product-recommendations>
             {%- when 'icon-with-text' -%}
@@ -440,10 +446,7 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
-  <p class="line-item-property__field">
-  <label for="your-name">Your name</label>
-  <input id="your-name" type="text" name="properties[Your name]">
-</p>
+  
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}

@@ -279,6 +279,10 @@
                         | t: quantity: product.selected_or_first_available_variant.quantity_rule.max
                       -}}
                     </span>
+                    <p class="line-item-property__field">
+  <label for="your-name">Your name</label>
+  <input id="your-name" type="text" name="properties[Your name]">
+</p>
                   {%- endif -%}
                 </div>
               </div>
@@ -304,7 +308,8 @@
               {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
               {% render 'share-button',
                 block: block,
-                share_link: share_url
+                share_lin
+                k: share_url
               %}
 
             {%- when 'variant_picker' -%}

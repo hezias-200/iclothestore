@@ -62,7 +62,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <div class=\"lyvecom_carousel--component\"><\/div>\n      <script>\n        LyveComWidget.mountCarouselComponent({\n            carouselID: '6475e9fbdb6109f787acec97',\n            parentElement: '.lyvecom_carousel--component',\n            carousel: true,\n            lng: 'en'\n        });\n      <\/script>",
+        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <script>\n          LyveComWidget.mount({\n              account: '64885c4f4a5a9ed4d32ceab3',\n              stories: true,\n              lng: 'en',\n              position: 'left',\n              positionLeft: '0',\n              positionBottom: '0'\n          });\n      <\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -71,7 +71,7 @@
     "501cc81c-c241-4581-8980-67381974ec40": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <div class=\"lyvecom_carousel--component\"><\/div>\n      <script>\n        LyveComWidget.mountCarouselComponent({\n            carouselID: '647b97597e5ef918d10e982a',\n            parentElement: '.lyvecom_carousel--component',\n            carousel: true,\n            lng: 'en'\n        });\n      <\/script>",
+        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <div class=\"lyvecom_carousel--component\"><\/div>\n      <script>\n        LyveComWidget.mountCarouselComponent({\n            carouselID: '64885ccad5923c9fc705c2f0',\n            parentElement: '.lyvecom_carousel--component',\n            carousel: true,\n            lng: 'en'\n        });\n      <\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

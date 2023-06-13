@@ -62,7 +62,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <div class=\"lyvecom_carousel--component\"><\/div>\n      <script>\n        LyveComWidget.mountCarouselComponent({\n            carouselID: '6475e9fbdb6109f787acec97',\n            parentElement: '.lyvecom_carousel--component',\n            carousel: true,\n            lng: 'en'\n        });\n      <\/script>",
+        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <script>\n          LyveComWidget.mount({\n              account: '64885c4f4a5a9ed4d32ceab3',\n              stories: true,\n              lng: 'en',\n              position: 'left',\n              positionLeft: '0',\n              positionBottom: '0'\n          });\n      <\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -71,7 +71,7 @@
     "501cc81c-c241-4581-8980-67381974ec40": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <div class=\"lyvecom_carousel--component\"><\/div>\n      <script>\n        LyveComWidget.mountCarouselComponent({\n            carouselID: '647b97597e5ef918d10e982a',\n            parentElement: '.lyvecom_carousel--component',\n            carousel: true,\n            lng: 'en'\n        });\n      <\/script>",
+        "custom_liquid": "<script src=\"https:\/\/dashboard.lyvecom.com\/widget\/widget.js\"><\/script>\n      <div class=\"lyvecom_carousel--component\"><\/div>\n      <script>\n        LyveComWidget.mountCarouselComponent({\n            carouselID: '64885ccad5923c9fc705c2f0',\n            parentElement: '.lyvecom_carousel--component',\n            carousel: true,\n            lng: 'en'\n        });\n      <\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -123,29 +123,39 @@
         "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Upgrading to a Stainless Steel Sink Drain",
+            "heading": "הוסף אישיות לחולצות שלך עם פאטצים ושמות מותאמים אישית!",
             "heading_size": "h1"
           }
         },
         "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Regularly inspect the sink drain rack for any signs of wear, loose parts, or damage. Check the stability of the rack and ensure that it is securely installed. If you notice any issues, address them promptly to prevent further damage or potential accidents.<\/p>",
+            "text": "<p>בחנות שלנו, אנחנו מציעים לך ליצור פאטצים ושמות מותאמים אישית לחולצות שלך. מהיום תוכל להוסיף פרטיות וסטייל אישי לחליפות הספורט שלך באופן מיוחד וייחודי.<\/p><p><\/p><p>הפאטצים המעוצבים והשמות האישיים מגוונים לחלוטין - יש לך את החופש לבחור את הגרפיקות, הצבעים והגודל הרצויים. בקיצור, אנחנו מספקים לך את הכלים ליצירת חולצה שתשקף את האישיות והטעם הייחודי שלך.<\/p>",
             "text_style": "body"
           }
         },
         "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
+            "button_label": "קנה עכשיו",
             "button_link": "shopify:\/\/products\/adjustable-dish-drainer-stainless-steel-sink-drain-rack-fruit-vegetable-drain-basket-kitchen-extendable-dish-drying-rack"
+          }
+        },
+        "23be2f6c-7466-4994-ab3f-6886ac0096b0": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
         "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-0",
         "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-1",
-        "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-2"
+        "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-2",
+        "23be2f6c-7466-4994-ab3f-6886ac0096b0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG-20230606-WA0032.jpg",

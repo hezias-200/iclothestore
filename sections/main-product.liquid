@@ -440,6 +440,10 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
+  <p class="line-item-property__field">
+  <label for="your-name">Your name</label>
+  <input id="your-name" type="text" name="properties[Your name]">
+</p>
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}
@@ -487,12 +491,12 @@
     <script type="application/json" id="ProductJSON-{{ product.id }}">
       {{ product.media | where: 'media_type', 'model' | json }}
     </script>
+
+
+  
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 
-  <p class="line-item-property__field">
-  <label for="your-name">Your name</label>
-  <input id="your-name" type="text" name="properties[Your name]">
-</p>
+  
   {%- endif -%}
 
   <script>

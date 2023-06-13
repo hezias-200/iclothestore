@@ -369,10 +369,7 @@
                       {%- if block.settings.make_collapsible_row -%}
                           {% render 'icon-caret' %}
                         </summary>
-                        <p class="line-item-property__field">
-  <label for="your-name">Your name</label>
-  <input id="your-name" type="text" name="properties[Your name]">
-</p>
+                        
                       {%- endif -%}
                       <slideshow-component class="slider-mobile-gutter">
                         {%- assign number_of_slides = recommendations.products_count | plus: 0.0 | divided_by: block.settings.products_per_page | ceil -%}
@@ -447,7 +444,10 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
-  
+  <p class="line-item-property__field">
+  <label for="your-name">Your name</label>
+  <input id="your-name" type="text" name="properties[Your name]">
+</p>
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}

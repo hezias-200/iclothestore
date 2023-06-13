@@ -31,13 +31,6 @@
           "settings": {
           }
         },
-        "092b96af-469c-4e80-bac2-0b424be63ac0": {
-          "type": "text",
-          "settings": {
-            "text": "תבחר שם שיופיע על החולצה",
-            "text_style": "body"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -63,7 +56,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "092b96af-469c-4e80-bac2-0b424be63ac0",
         "buy_buttons",
         "description",
         "share"

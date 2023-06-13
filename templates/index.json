@@ -123,7 +123,7 @@
         "template--19146987438365__1baf096e-d267-404a-9f9e-8f663fd6c907-1685305423ba3e9ec6-0": {
           "type": "heading",
           "settings": {
-            "heading": "הוסף אישיות לחולצות שלך עם פאטצים ושמות מותאמים אישית!",
+            "heading": "הוסף אישיות לחולצות שלך עם פאטצים ושמות מותאמים אישית",
             "heading_size": "h1"
           }
         },
@@ -160,10 +160,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG-20230606-WA0032.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "right",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "image_behavior": "none",
